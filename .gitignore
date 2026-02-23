@@ -1,0 +1,9 @@
+# Terraform local state
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# AWS Credentials / Sensitive
+.aws/
+.env
